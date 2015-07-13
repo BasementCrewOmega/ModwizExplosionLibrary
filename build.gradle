@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+group = 'com.basementcrewomega'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    maven {
+        name 'Basement Crew'
+        url 'http://basementcrewomega.github.io/maven-repository/snapshots'
+    }
+    mavenCentral()
+}
+
+dependencies {
+  testCompile 'junit:junit:4.11'
+  compile 'com.gamejolt:gamejoltapi-all:1.0-SNAPSHOT'
+}
+
+archivesBaseName = project.name.toLowerCase()
