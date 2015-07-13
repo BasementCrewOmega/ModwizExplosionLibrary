@@ -30,7 +30,7 @@ shadowJar {
     classifier = ''
     
     dependencies {
-        include(dependency('com.gamejolt:gamejoltapi-all:1.0-SNAPSHOT')))
+        include(dependency('com.gamejolt:gamejoltapi-all:1.0-SNAPSHOT'))
     }
 }
 
